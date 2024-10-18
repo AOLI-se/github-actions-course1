@@ -11,8 +11,4 @@ jobs:
       with:
         node-version: '20.x'
     - run: npm install
-    - run: bpm run build
-  test:
-    runs-on: ubuntu-latest  
-  deploy:
-    runs-on: ubuntu-latest  
+    - run: bpm run build 
